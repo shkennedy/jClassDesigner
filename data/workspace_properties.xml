@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this properties file is only
+    for the workspace controls, which are custom for each application
+-->
+<properties>
+    <property_list>
+        <!-- PROGRAM ICON FILES -->
+        <property name="PHOTO_ICON"                 value="photo.png"></property>
+        <property name="EXPORT_JAVA_ICON"           value="java.png"></property>
+	<property name="SELECT_ICON"                value="select.png"></property>
+        <property name="RESIZE_ICON"                value="resize.png"></property>
+	<property name="ADD_CLASS_ICON"             value="class.png"></property>
+	<property name="ADD_INTERFACE_ICON"         value="interface.png"></property>
+        <property name="REMOVE_ICON"                value="remove.png"></property>
+	<property name="UNDO_ICON"                  value="undo.png"></property>
+	<property name="REDO_ICON"                  value="redo.png"></property>
+        <property name="ZOOM_IN_ICON"               value="zoomIn.png"></property>
+        <property name="ZOOM_OUT_ICON"              value="zoomOut.png"></property>
+        <property name="ADD_COMPONENT_ICON"         value="plus.png"></property>
+        <property name="SUBTRACT_COMPONENT_ICON"    value="minus.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="PHOTO_TOOLTIP"              value="Save Diagram Image"></property>
+        <property name="EXPORT_JAVA_TOOLTIP"        value="Export Design to Java"></property>
+	<property name="SELECT_TOOLTIP"             value="Use Selection Tool"></property>
+        <property name="RESIZE_TOOLTIP"             value="Use Resize Tool"></property>
+        <property name="ADD_CLASS_TOOLTIP"	    value="Create a Class"></property>
+        <property name="ADD_INTERFACE_TOOLTIP"	    value="Create an Interface"></property>
+        <property name="REMOVE_TOOLTIP"             value="Remove Selected Component"></property>
+	<property name="UNDO_TOOLTIP"               value="Undo"></property>
+	<property name="REDO_TOOLTIP"               value="Redo"></property>
+	<property name="ZOOM_IN_TOOLTIP"	    value="Zoom In"></property>
+	<property name="ZOOM_OUT_TOOLTIP"	    value="Zoom Out"></property>        
+	<property name="ADD_METHOD_TOOLTIP"	    value="Add Method"></property>
+        <property name="SUBTRACT_METHOD_TOOLTIP"    value="Subtract Method"></property>
+        <property name="ADD_VARIABLE_TOOLTIP"	    value="Add Variable"></property>
+        <property name="SUBTRACT_VARIABLE_TOOLTIP"  value="Subtract Variable"></property>	
+        
+        <!-- LABELS -->
+        <property name="NAME_LABEL"                 value="Name:"></property>
+        <property name="PACKAGE_LABEL"              value="Package:"></property>
+        <property name="PARENT_LABEL"               value="Parents:"></property>
+        <property name="METHODS_LABEL"              value="Methods:"></property>
+        <property name="VARIABLES_LABEL"            value="Variables:"></property>
+        <property name="SHOW_GRID_LABEL"            value="Grid"></property>
+        <property name="ENABLE_SNAPPING_LABEL"      value="Snapping"></property>
+        
+	<!-- MESSAGES -->
+        <property name="EXPORT_CODE_TITLE"          value="Export Java Code"></property>
+        <property name="EXPORT_CODE_MESSAGE"        value="Select directory to store project."></property>
+	<property name="REMOVE_MESSAGE"             value="Are you sure you wish to remove that element?"></property>
+		
+	<!-- ERROR MESSAGES AND TITLES FOR THEIR DIALOGS -->
+        <property name="EXPORT_CODE_ERROR_TITLE"          value="Export Java Code Error"></property>
+        <property name="EXPORT_CODE_ERROR_MESSAGE"        value="An error occurred exporting project to Java code."></property>
+        <property name="NAME_UPDATE_ERROR_TITLE"            value="Name Update Error"></property>
+        <property name="PACKAGE_UPDATE_ERROR_TITLE"         value="Package Update Error"></property>
+        <property name="IDENTIFIER_UPDATE_ERROR_MESSAGE"    value="Error: An element with this name and package already exists."></property>
+	<property name="ATTRIBUTE_UPDATE_ERROR_MESSAGE"	    value="WARNING: An error occured updating the element's attribute."></property>
+	<property name="ATTRIBUTE_UPDATE_ERROR_TITLE"	    value="Attribute Update Error"></property>
+	<property name="UPDATE_ERROR_MESSAGE"		    value="An error occured updating the UI"></property>
+	<property name="UPDATE_ERROR_TITLE"		    value="UI Update Error"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>

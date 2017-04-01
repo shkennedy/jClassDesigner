@@ -1,0 +1,123 @@
+
+/* CSS CLASS FOR LABELS HEADING LARGE SECTIONS IN THE GUI */
+.heading_label {
+    -fx-font-size: 20pt;
+    -fx-font-weight: bold;
+}
+
+/* CSS CLASS FOR LABELS HEADING SUBSECTIONS IN THE GUI */
+.subheading_label {
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+
+.edit_toolbar {
+    -fx-background-color: #aaaaff;
+    -fx-background-radius: 5.0;
+    -fx-border-width: 2px;
+    -fx-border-color: #3333dd;
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+}
+
+.edit_toolbar_row {
+    -fx-background-color: #ddddff;
+    -fx-background-radius: 5.0;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #7777dd;
+    -fx-font-size: 10pt;
+}
+
+.components_toolbar {
+    -fx-background-color: #aaaaff;
+    -fx-background-radius: 5.0;
+    -fx-border-width: 2px;
+    -fx-border-color: #3333dd;
+    -fx-font-size: 10pt;
+    -fx-font-weight: bold;
+    -fx-spacing: 10;
+    -fx-padding: 5;
+}
+
+.name_pane {
+    -fx-background-color: #ddddff;
+    -fx-background-radius: 5.0;
+    -fx-padding: 10;
+    -fx-spacing: 24;
+    -fx-border-width: 2px;
+    -fx-border-color: #7777dd;
+    -fx-font-size: 10pt;
+}
+
+.package_pane {
+    -fx-background-color: #ddddff;
+    -fx-background-radius: 5.0;
+    -fx-padding: 10;
+    -fx-spacing: 10;
+    -fx-border-width: 2px;
+    -fx-border-color: #7777dd;
+    -fx-font-size: 10pt;
+}
+
+.parent_pane {
+    -fx-background-color: #ddddff;
+    -fx-background-radius: 5.0;
+    -fx-padding: 10;
+    -fx-spacing: 20;
+    -fx-border-width: 2px;
+    -fx-border-color: #7777dd;
+    -fx-font-size: 10pt;
+}
+
+.variables_methods_pane {
+    -fx-background-color: #ddddff;
+    -fx-background-radius: 5.0;
+    -fx-padding: 10;
+    -fx-spacing: 3;
+    -fx-border-width: 2px;
+    -fx-border-color: #7777dd;
+    -fx-font-size: 10pt;
+}
+
+.container_pane {
+    -fx-background-color: #000000;
+    -fx-padding: 3;
+    -fx-spacing: 3;
+}
+
+.file_button {
+}
+
+.container_pane_child {
+    -fx-width: 80;
+    -fx-height: 30;
+    -fx-background-color: #ffffff;
+    -fx-padding: 10;
+    -fx-spacing: 5;
+    -fx-font-size: 13;
+    -fx-font-weight: bold;
+    -fx-fit-to-height: true;
+    -fx-fit-to-width: true;
+}
+
+.bordered_pane {
+    -fx-padding: 5;
+    -fx-spacing: 60;
+    -fx-border-width: 2px;
+    -fx-border-color: #3333dd;
+}
+
+.canvas_pane {
+    -fx-border-width: 2px;
+    -fx-border-color: #000000;
+    -fx-fit-to-height: true;
+    -fx-fit-to-width: true;
+}
+
+.max_pane {
+    -fx-fit-to-height: true;
+    -fx-fit-to-width: true;
+} 
+
